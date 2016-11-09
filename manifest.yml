@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testNode1994
+  host: testNode1994
+  disk_quota: 1024M
+  services:
+  - testNode1994-cloudantNoSQLDB
